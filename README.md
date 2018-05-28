@@ -12,7 +12,7 @@ ip www.fuck.com
 
 ## download
 
-[ipip.alfredworkflow](https://github.com/Demired/ipip-alfred-workflow/releases/download/1.0.0/ipip.alfredworkflow)
+[ipip.alfredworkflow](https://github.com/Demired/ipip-alfred-workflow/releases/download/v1.1/ipip.alfredworkflow)
 
 ## example
 
