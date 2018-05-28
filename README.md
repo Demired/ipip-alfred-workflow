@@ -2,9 +2,11 @@
 
 API documentation [ipip.net](https://www.ipip.net/support/api.html)
 
-## use
+## usage
 
 ip 8.8.8.8
+
+ip 134744072
 
 ip www.fuck.com
 
@@ -16,3 +18,4 @@ ip www.fuck.com
 
 ![1](example/one.png)
 ![2](example/two.png)
+![3](example/three.png)
