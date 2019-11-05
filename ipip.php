@@ -1,6 +1,6 @@
 <?php
-$ip = gethostbyname('{query}');
-
+$text = gethostbyname('{query}');
+$ip = trim($text);
 echo '<?xml version="1.0"?>';
 echo '<items>';
 if(!filter_var($ip, FILTER_VALIDATE_IP)) {
@@ -12,7 +12,7 @@ if(!filter_var($ip, FILTER_VALIDATE_IP)) {
     $uid = md5($ip);
     echo "<item uid=\"{$uid}\">";
     echo "<title>{$address}</title>";
-    echo "<subtitle>{$ip} 来自ipip.net </subtitle>";
+    echo "<subtitle>{$ip} 来自 ipip.net</subtitle>";
     echo '<icon>icon.png</icon>';
     echo '</item>';
 }
